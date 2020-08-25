@@ -1,0 +1,4 @@
+This version allows you to choose how many orders you want opened and also it allows you to either, if UseActualSlTp = false, enter the SL and TP as pips OR if UseActualSlTp = true, just enter the SL price and the TP price. It will still figure out the lot size for you automatically based on AutoMoneyManagement = true.
+
+The RiskPercent is per order. So if you have a RiskPercent of 1 that means 1% of your balance based on this formula per order you select. So if you select say 4 orders, that would be a total risk of 4% of your balance as the maximum you could lose. 
+Lot (Order) = AccountBalance *risk%/StopLoss/Pipvalue.
